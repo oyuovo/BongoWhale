@@ -1,0 +1,27 @@
+# ---- build output ----
+/target
+**/*.pdb
+**/*.ilk
+
+# ---- packaged builds (ship these as GitHub Releases) ----
+/dist
+/dist/package/
+*.zip
+*.exe
+*.msi
+*.nsi.bak
+
+# ---- art (generated from src/ by tools/assetpack) ----
+/assets
+/assets/rig/
+
+# ---- raw source art and design documents (kept locally) ----
+/src
+/docs
+
+# ---- editor / OS noise ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
