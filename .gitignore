@@ -18,6 +18,9 @@
 # ---- raw source art and design documents (kept locally) ----
 /src
 /docs
+/art
+/layers
+/cut_spec.json
 
 # ---- editor / OS noise ----
 .vscode/
